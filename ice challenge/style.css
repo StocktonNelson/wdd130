@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue;
+    max-width: 40%;
+    max-height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#inner_box{
+    max-width: 100%;
+    background-color: lightsalmon;
+    border-style: solid;
+}
+header{
+    color: white;
+    font-weight: bolder;
+}
+header:hover{
+    color: black;
+}
+
+main{
+    color: white;
+    padding: 5%;
+}
+#list{
+    color: black;
+    padding: 0;
+    margin: 0 auto;
+    text-align: start;
+}
+#quote{
+    font-size: 35px;
+    font-weight: bolder;
+}
+img{
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+footer{
+    font-size: 10px;
+}
