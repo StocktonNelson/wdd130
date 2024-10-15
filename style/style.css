@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Sixtyfour+Convergence&display=swap');
+
+@font-face {
+    font-family: Kid;
+    src: url();
+}
+
+body{
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+#main_image{
+    border-radius: 10%;
+    border: 20px blueviolet solid;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+#quote_title{
+    font-family: "Sixtyfour Convergence", sans-serif;;
+}
+#quote{
+    font-family: "Anton", sans-serif;
+    margin: 10px;
+    padding: 5px;
+    border: 10px;
+}

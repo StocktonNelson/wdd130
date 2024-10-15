@@ -1,0 +1,26 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: gray
+}
+main{
+
+}
+.images{
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(80, 80, 80);
+    border-width: 12px;
+    margin: 50px 135px;
+}
+
+#lower_imgs{
+    margin: auto 25%;
+}
+
+#uppper_image {
+    margin: 0 25%;
+    width: 50%;
+}
