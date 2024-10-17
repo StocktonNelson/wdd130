@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
     background-color: #E9EFEC;
+    font-family: "Poppins", Helvetica, sans-serif;;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #6A9C89;
@@ -9,6 +16,7 @@ nav a{
     background-color: #6A9C89;
     color: #16423C;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #16423C;
@@ -17,6 +25,8 @@ nav a:hover{
 footer{
     background-color: #16423C;
     color: #E9EFEC;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     background-color: #6A9C89;
@@ -27,8 +37,11 @@ footer a:hover{
     background-color: #16423C;
     color: #E9EFEC;
 }
+footer .social img{
+    padding: 25px 50px;
+}
 nav{
-    text-align: center;
+    text-align: left;
 }
 a{
     text-align: center;
@@ -39,6 +52,9 @@ main section{
 h4{
     background-color: #16423C;
     color: #E9EFEC;
+}
+h2{
+    margin: 0;
 }
 #content{
     max-width: 1600px;
@@ -57,15 +73,13 @@ h4{
     background-color: #6A9C89;
     height: 725px;
 }
-.book{
+.book, .join{
     background-color: #6A9C89;
     color: #16423C;
+    padding: 15px 30px;
     text-decoration: none;
-}
-.join{
-    background-color: #6A9C89;
-    color: #16423C;
-    text-decoration: none;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #16423C;
@@ -77,22 +91,43 @@ h4{
 }
 .msg{
     background-color: #16423C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .home-title{
     background-color: #16423C;
     color: #E9EFEC;
+    font-family:"Josefin Sans", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2{
+    font-family:"Josefin Sans", Helvetica, sans-serif;
     background-color: #16423C;
     color: #E9EFEC;
 }
 .msg p{
     background-color: #16423C;
     color: #E9EFEC;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.card-img{
+    border: 10px solid #16423C;
+}
+.rivers-card, .camping-car, .rapids-card{
+    margin: 200px 0;
+}
+main section img{
+    box-sizing: border-box;
 }
