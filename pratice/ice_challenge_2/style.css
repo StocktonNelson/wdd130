@@ -5,13 +5,13 @@ body{
     background-color: white;
 }
 .images{
-    width: 250px;
+    width:125px;
     height: auto;
     border-radius: 50%;
     border-style: solid;
     border-color: rgb(80, 80, 80);
     border-width: 12px;
-    margin: 50px 135px;
+    margin: 10px 65px;
 }
 
 #lower_imgs{
