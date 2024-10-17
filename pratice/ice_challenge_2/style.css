@@ -1,7 +1,8 @@
 body{
     margin: 0 auto;
+    padding: 0;
     box-sizing: border-box;
-    background-color: gray
+    background-color: white;
 }
 .images{
     width: 250px;
@@ -14,10 +15,13 @@ body{
 }
 
 #lower_imgs{
-    margin: auto 25%;
+    background-color: gray;
+    margin: 0 25%;
+    border: 0;
 }
 
 #uppper_image {
+    display: block;
     margin: 0 25%;
     width: 50%;
 }
