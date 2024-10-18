@@ -38,7 +38,7 @@ footer a:hover{
     color: #E9EFEC;
 }
 footer .social img{
-    padding: 25px 50px;
+    padding-top: 15px;
 }
 nav{
     text-align: left;
@@ -80,6 +80,7 @@ h2{
     text-decoration: none;
     margin-top: 50px;
     border-radius: 5px;
+    font-size: 18px;
 }
 .book:hover{
     background-color: #16423C;
@@ -125,7 +126,7 @@ h2{
 .card-img{
     border: 10px solid #16423C;
 }
-.rivers-card, .camping-car, .rapids-card{
+.rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
 main section img{
