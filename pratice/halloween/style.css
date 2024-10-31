@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    background-color: #E4731Aff;
+    --cocoa-brown: #E4731Aff;
+    --gunmetal: #0E2F3Cff;
+    --beige: #F3F8E2ff;
+    text-align: center;
+}
+
+nav{
+    border: #0E2F3Cff solid 10px;
+    border-radius: 25%;
+    background-color: rgb(187, 111, 187);
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+    text-align: center;
+}
+
+main img{
+    border-radius: 25%;
+    border: dashed 10px;
+    border-color: rgb(187, 111, 187) #0E2F3Cff #F3F8E2ff;
+}
+
+h1, h2{
+    font-family: 'Creepster', Courier, monospace;
+    text-shadow: 2px 2px #F3F8E2ff;
+}
+
+p{
+    font-family: 'Comic Neue', Courier, monospace;
+} 
+
+section p{
+    background-color: rgb(187, 111, 187);
+    color: #F3F8E2ff;
+    border:ridge #0E2F3Cff 10px;
+    
+}
