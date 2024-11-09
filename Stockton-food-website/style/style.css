@@ -6,30 +6,54 @@ body{
     margin: auto 25px;
 }
 
-nav{
-    padding: 25px;
+nav {
     background-color: #739A3Bff;
-    text-align: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 nav a{
-    padding: 25px;
-    margin: 25px;
-    border: 25px;
+    padding: 30px;
+    margin: 30px;
 }
 
 nav a:hover{
     background-color: aqua;
 }
 
-
-#burger-card{
+#burger-card, #shrimp-card{
+    padding: 3em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    grid-template-rows: 1fr;
 }
 
-#burger-card img{
+#shrimp-img{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#shrimp-card p{
+    margin-right: -10em;
+    grid-column: 1/2;
+    text-align: left;
+}
+
+#shrimp-card a{
+    text-align: left;
+}
+
+#burger-card, #shrimp-card{
+    
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#burger-img {
+    text-align: center;
     grid-column: 1/2;
     grid-row: 1/2;
 }
@@ -37,17 +61,26 @@ nav a:hover{
 #burger-card p{
     grid-column: 2/3;
     grid-row: 1/2;
-}
-
-#shrimp-card{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-#shrimp-card img{
-    grid-column: 2/3;
+    margin-left: -10em;
 }
 
 #shrimp-card p{
     grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+footer{
+    padding: 25px;
+    background-color: #739A3Bff;
+    text-align: left;
+}
+footer a{
+    padding: 25px;
+    margin: 25px;
+    border: 25px;
+    align-self: center;
+}
+
+footer a:hover{
+    background-color: aqua;
 }
