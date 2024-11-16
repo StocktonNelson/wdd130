@@ -215,6 +215,29 @@ main, #home-grid {
     grid-row: 1/2;
     margin-top: 100px;
 }
+main2{
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr 1fr ;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#river-title-page{
+    grid-row: 1/2;
+}
+
+#idaho-river-card{
+    grid-row: 2/3;
+}
+
+#Utah-river-card{
+    grid-row: 3/4;
+}
+
+#grand-river-card{
+    grid-row: 4/5;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
