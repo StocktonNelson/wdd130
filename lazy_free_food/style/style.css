@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #EBE7C3ff;
+    margin: auto 25px;
+}
+
+nav {
+    background-color: #739A3Bff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    padding: 30px;
+    margin: 30px;
+}
+
+nav a:hover{
+    background-color: aqua;
+}
+
+#burger-card, #shrimp-card{
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#shrimp-img{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#shrimp-card p{
+    margin-right: -10em;
+    grid-column: 1/2;
+    text-align: left;
+}
+
+#shrimp-card a{
+    text-align: left;
+}
+
+#burger-card, #shrimp-card{
+    
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#burger-img {
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#burger-card p{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-left: -10em;
+}
+
+#shrimp-card p{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+footer{
+    padding: 25px;
+    background-color: #739A3Bff;
+    text-align: left;
+}
+footer a{
+    padding: 25px;
+    margin: 25px;
+    border: 25px;
+    align-self: center;
+}
+
+footer a:hover{
+    background-color: aqua;
+}
