@@ -1,86 +1,89 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
-    background-color: #EBE7C3ff;
-    margin: auto 25px;
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #DD8524ff;
+    --secondary-color: #739A3Bff;
+    --accent1-color: #321412ff;
+    --accent2-color: #EBE7C3ff;
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Itim";
+    --paragraph-font: "Poppins", Helvetica, sans-serif;
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #DD8524ff;
+    /* headlines on a white background */
+    --headline-color-on-color: #EBE7C3ff;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #321412ff;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: #EBE7C3ff;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #739A3Bff;
+    --nav-link-color: #321412ff;
+    --nav-background-color: #DD8524ff;
+    --nav-hover-link-color: #EBE7C3ff;
+    --nav-hover-background-color: #739A3Bff;
 }
 
-nav {
-    background-color: #739A3Bff;
+body {
+    background-color: var(--accent2-color);
+    margin: auto 0;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+
+nav{
+    background-color: var(--nav-background-color);
+    display: flex;
+    justify-content: space;
+    text-align: left;
+}
+
 nav a{
-    padding: 30px;
-    margin: 30px;
+    padding:2em;
 }
 
 nav a:hover{
-    background-color: aqua;
+    background-color: var(--nav-hover-background-color);
 }
 
-#burger-card, #shrimp-card{
-    padding: 3em;
+main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
-#shrimp-img{
-    text-align: center;
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-
-#shrimp-card p{
-    margin-right: -10em;
+#burger-card {
     grid-column: 1/2;
-    text-align: left;
-}
-
-#shrimp-card a{
-    text-align: left;
-}
-
-#burger-card, #shrimp-card{
-    
-    padding: 3em;
+    grid-row: 1/2;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-#burger-img {
-    text-align: center;
+#burger-card #burger-img {
     grid-column: 1/2;
     grid-row: 1/2;
 }
 
-#burger-card p{
+#burger-card #burger {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-left: -10em;
 }
 
-#shrimp-card p{
+#shrimp-card {
     grid-column: 1/2;
     grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-footer{
-    padding: 25px;
-    background-color: #739A3Bff;
-    text-align: left;
-}
-footer a{
-    padding: 25px;
-    margin: 25px;
-    border: 25px;
-    align-self: center;
+#shrimp-card #shrimp-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
-footer a:hover{
-    background-color: aqua;
+#shrimp-card #shrimp {
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
