@@ -36,7 +36,7 @@ body {
 nav {
     background-color: var(--nav-background-color);
     display: flex;
-    justify-content: space;
+    justify-content: start;
     text-align: left;
     align-items: center;
 }
@@ -108,7 +108,8 @@ a {
     grid-template-columns: 1fr 1fr;
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: var(--heading-font), Courier, monospace;
 }
 
@@ -132,27 +133,30 @@ p {
 }
 
 #burger-card #burger {
-    
+
     grid-column: 3/4;
     grid-row: 1/2;
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-#burger-card a, #shrimp-card a{
+#burger-card a,
+#shrimp-card a {
     grid-row: 2/3;
     width: 6em;
     height: 1em;
     justify-self: center;
 }
 
-#burger-card a, #shrimp-card a {
+#burger-card a,
+#shrimp-card a {
     background-color: var(--headline-color-on-white);
     padding: 1em;
 }
 
-#burger-card a:hover, #shrimp-card a:hover {
+#burger-card a:hover,
+#shrimp-card a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
@@ -174,16 +178,18 @@ p {
     grid-column: 1/2;
     grid-row: 1/2;
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-#burger-img, #shrimp-img {
+#burger-img,
+#shrimp-img {
     padding: 2em;
     display: flex;
 }
 
-#burger-img img, #shrimp-img img {
+#burger-img img,
+#shrimp-img img {
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -199,16 +205,16 @@ p {
     - Hover effects for interactive elements
 */
 
-#sub-main-content{
+#sub-main-content {
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 1/2fr 1/2fr 150px 1fr;
+    grid-template-rows: 150px 1.5fr 1.5fr 150px 1fr;
 }
 
 #sub-main-img {
     width: 100%;
-    height: 400px; 
+    height: 400px;
     overflow: hidden;
 }
 
@@ -218,21 +224,21 @@ p {
     object-fit: cover;
 }
 
-#sub-main-title{
+#sub-main-title {
     font-size: 2em;
-    grid-column: 1 / 3; 
+    grid-column: 1 / 3;
     grid-row: 1 / 2;
 }
 
-#sub-main-pargraph{
+#sub-main-pargraph {
     font-size: 25px;
-    grid-column: 1 / 3; 
+    grid-column: 1 / 3;
     grid-row: 2 / 3;
 }
 
-#sub-main-ingedents{
+#sub-main-ingedents {
     font-size: 50px;
-    grid-column: 1 / 3; 
+    grid-column: 1 / 3;
     grid-row: 3 / 4;
     text-align: center;
     display: flex;
@@ -240,25 +246,29 @@ p {
 }
 
 #sub-main-ingedents ul {
-    margin: 0 auto; /* Center the list */
-    
+    margin: 0 auto;
+    /* Center the list */
+
 }
 
 #sub-main-ingedents ul li {
-    font-size: 40px; /* Smaller font size than the heading */
-    padding: 5px 0; /* Spacing between list items */
-    text-align: left; /* Align text to the left */
+    font-size: 40px;
+    /* Smaller font size than the heading */
+    padding: 5px 0;
+    /* Spacing between list items */
+    text-align: left;
+    /* Align text to the left */
 }
 
-#sub-main-instrucations-title{
+#sub-main-instrucations-title {
     font-size: 50px;
-    grid-column: 1 / 3; 
+    grid-column: 1 / 3;
     grid-row: 4 / 5;
 }
 
-#sub-main-instrucations{
+#sub-main-instrucations {
     font-size: 50px;
-    grid-column: 1 / 2; 
+    grid-column: 1 / 2;
     grid-row: 5 / 6;
     text-align: center;
     display: flex;
@@ -266,17 +276,21 @@ p {
 }
 
 #sub-main-instrucations ul li {
-    font-size: 40px; /* Smaller font size than the heading */
-    padding: 5px 0; /* Spacing between list items */
-    text-align: left; /* Align text to the left */
+    font-size: 40px;
+    /* Smaller font size than the heading */
+    padding: 5px 0;
+    /* Spacing between list items */
+    text-align: left;
+    /* Align text to the left */
 }
 
-#sub-sub-img{
-    grid-column: 2 / 3; 
+#sub-sub-img {
+    grid-column: 2 / 3;
     grid-row: 5 / 6;
 }
 
-#burger, #shrimp {
+#burger,
+#shrimp {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
